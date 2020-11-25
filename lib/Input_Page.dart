@@ -3,8 +3,15 @@ import 'Repeate_contanier.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'RepeateTextIcon.dart';
 
-const activationcolor = Color(0xFF111328);
-const deactivationcolor = Color(0xFF1D1E33);
+// enum Gender {
+//   male,
+//   female,
+// }
+
+enum Gender {
+  male,
+  female,
+}
 
 class InputPage extends StatefulWidget {
   @override
@@ -28,13 +35,6 @@ class _InputPageState extends State<InputPage> {
             child: Row(
               children: [
                 Expanded(
-                   child: GestureDetector(
-                    onTap: () {
-                      setState(() {
-                        //update_color(Gender.male);
-                        selectGender = Gender.male;
-                      });
-                    },
                   child: Repeate_contanier(
                     onpressed: () {
                       setState(
@@ -54,13 +54,6 @@ class _InputPageState extends State<InputPage> {
                   //),
                 ),
                 Expanded(
-                   child: GestureDetector(
-                    onTap: () {
-                      setState(() {
-                        //update_color(Gender.male);
-                        selectGender = Gender.male;
-                      });
-                    },
                   child: Repeate_contanier(
                     onpressed: () {
                       setState(
