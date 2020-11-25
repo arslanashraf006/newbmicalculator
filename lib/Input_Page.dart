@@ -4,11 +4,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'RepeateTextIcon.dart';
 import 'constent_variable.dart';
 import 'RoundIcon.dart';
-
-// enum Gender {
-//   male,
-//   female,
-// }
+import 'Resultfind.dart';
 
 enum Gender {
   male,
