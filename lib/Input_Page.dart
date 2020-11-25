@@ -46,6 +46,8 @@ class _InputPageState extends State<InputPage> {
                     colors: selectGender == Gender.male
                         ? activationcolor
                         : deactivationcolor,
+                    // ? activationcolor
+                    // : deactivationcolor,
                     cardWidge: RepeateTextIcon(
                       iconData: FontAwesomeIcons.male,
                       Label: 'MALE',
@@ -65,6 +67,8 @@ class _InputPageState extends State<InputPage> {
                     colors: selectGender == Gender.female
                         ? activationcolor
                         : deactivationcolor,
+                    // ? activationcolor
+                    // : deactivationcolor,
                     cardWidge: RepeateTextIcon(
                       iconData: FontAwesomeIcons.female,
                       Label: 'FEMALE',
