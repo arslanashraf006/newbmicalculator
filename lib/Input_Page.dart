@@ -34,13 +34,6 @@ class _InputPageState extends State<InputPage> {
             child: Row(
               children: [
                 Expanded(
-                  /* child: GestureDetector(
-                    onTap: () {
-                      setState(() {
-                        //update_color(Gender.male);
-                        selectGender = Gender.male;
-                      });
-                    },*/
                   child: Repeate_contanier(
                     onpressed: () {
                       setState(
@@ -60,14 +53,6 @@ class _InputPageState extends State<InputPage> {
                   //),
                 ),
                 Expanded(
-                  /*child: GestureDetector(
-                    onTap: () {
-                      setState(() {
-                        //update_color(Gender.female);
-                        selectGender = Gender.female;
-                      });
-                    },*/
-
                   child: Repeate_contanier(
                     onpressed: () {
                       setState(
@@ -116,7 +101,7 @@ class _InputPageState extends State<InputPage> {
                           value: slider_height.toDouble(),
                           min: 100.0,
                           max: 220.0,
-                          activeColor: Colors.redAccent,
+                          activeColor: Colors.cyan[700],
                           inactiveColor: Colors.white,
                           onChanged: (double newvalue) {
                             setState(() {
