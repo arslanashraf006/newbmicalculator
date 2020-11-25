@@ -1,11 +1,5 @@
 import 'package:flutter/material.dart';
 import 'Repeate_contanier.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'RepeateTextIcon.dart';
-import 'constent_variable.dart';
-import 'RoundIcon.dart';
-import 'Resultfind.dart';
-import 'calculation.dart';
 
 enum Gender {
   male,
