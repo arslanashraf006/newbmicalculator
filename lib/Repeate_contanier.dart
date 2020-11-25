@@ -15,6 +15,15 @@ class Repeate_contanier extends StatelessWidget {
         decoration: BoxDecoration(
             color: colors,
             borderRadius: BorderRadiusDirectional.circular(15.0)),
+          return GestureDetector(
+      onTap: onpressed,
+      child: Container(
+          child: cardWidge,
+          margin: EdgeInsets.all(10.0),
+      decoration: BoxDecoration(
+          color: colors,
+          borderRadius: BorderRadiusDirectional.circular(15.0)),
+    ),
       ),
     );
   }

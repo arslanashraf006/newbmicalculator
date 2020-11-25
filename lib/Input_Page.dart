@@ -43,6 +43,14 @@ class _InputPageState extends State<InputPage> {
                         },
                       );
                     },
+                    // Repeate_contanier(
+                    //   onpressed: () {
+                    //     setState(
+                    //       () {
+                    //         selectGender = Gender.male;
+                    //       },
+                    //     );
+                    //   },
                     colors: selectGender == Gender.male
                         ? activationcolor
                         : deactivationcolor,
@@ -64,6 +72,14 @@ class _InputPageState extends State<InputPage> {
                         },
                       );
                     },
+                    //Repeate_contanier(
+                    //   onpressed: () {
+                    //     setState(
+                    //       () {
+                    //         selectGender = Gender.female;
+                    //       },
+                    //     );
+                    //   },
                     colors: selectGender == Gender.female
                         ? activationcolor
                         : deactivationcolor,
