@@ -26,7 +26,7 @@ class _InputPageState extends State<InputPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('BMI'),
+        title: Text('BMI Calculator'),
       ),
       body: Column(
         children: [
@@ -99,7 +99,7 @@ class _InputPageState extends State<InputPage> {
               children: [
                 Expanded(
                   child: Repeate_contanier(
-                    colors: Color(0xFF1D1E33),
+                    colors: Color(0xFF00695c),
                     cardWidge: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
@@ -121,7 +121,7 @@ class _InputPageState extends State<InputPage> {
                           value: slider_height.toDouble(),
                           min: 100.0,
                           max: 220.0,
-                          activeColor: Colors.cyan[700],
+                          activeColor: Colors.teal[900],
                           inactiveColor: Colors.white,
                           onChanged: (double newvalue) {
                             setState(() {
@@ -173,7 +173,7 @@ class _InputPageState extends State<InputPage> {
                         )
                       ],
                     ),
-                    colors: Color(0xFF1D1E33),
+                    colors: Color(0xFF00695c),
                   ),
                 ),
                 Expanded(
@@ -207,7 +207,7 @@ class _InputPageState extends State<InputPage> {
                           )
                         ],
                       ),
-                      colors: Color(0xFF1D1E33)),
+                      colors: Color(0xFF00695c)),
                 ),
               ],
             ),
@@ -231,7 +231,7 @@ class _InputPageState extends State<InputPage> {
               child: Center(
                 child: Text('Calculate', style: ConstentTextLabe3),
               ),
-              color: Colors.deepOrange,
+              color: Colors.teal[900],
               height: 60,
               width: double.infinity,
               margin: EdgeInsets.only(top: 10),

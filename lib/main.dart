@@ -12,8 +12,8 @@ class BmiCalculatur extends StatelessWidget {
     return MaterialApp(
       home: InputPage(),
       theme: ThemeData.dark().copyWith(
-        primaryColor: Colors.teal[700],
-        scaffoldBackgroundColor: Colors.teal[700],
+        primaryColor: Colors.teal[400],
+        scaffoldBackgroundColor: Colors.teal[400],
       ),
     );
   }

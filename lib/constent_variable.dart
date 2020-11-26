@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-const activationcolor = Color(0xFF111328);
-const deactivationcolor = Color(0xFF1D1E33);
+const activationcolor = Color(0xFF00695c);
+const deactivationcolor = Color(0xFF00695c);
 
 const ConstentTextLabel = TextStyle(
   fontSize: 15,
